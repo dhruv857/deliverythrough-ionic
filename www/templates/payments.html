@@ -1,0 +1,78 @@
+<ion-view view-title="Payments">
+<ion-content>
+  <div class="list">
+  <label class="item item-input">
+    <span class="input-label">Name On Card</span>
+    <input type="text">
+  </label>
+
+
+  <label class="item item-input">
+    <span class="input-label">Email</span>
+    <input type="email">
+  </label>
+
+  <label class="item item-input">
+  <span class="input-label">Contact Number</span>
+  <input type="tel">
+</label>
+
+<label class="item item-input">
+  <span class="input-label">Card Number</span>
+  <input placeholder="1234 5678 9012 3456" pattern="[0-9]*" type="text" class="card-number" id="card-number" >
+</label>
+
+<label class="item item-input">
+  <span class="input-label">CVV</span>
+<input placeholder="***" pattern="[0-9]*" type="password">
+</label>
+
+<label class="item item-input">
+  <span class="input-label">Expiry</span>
+  <input placeholder="MM/YY" pattern="[0-9]*" type="text" class="card-expiration" id="card-expiration">
+
+</label>
+<label class="item item-input">
+  <span class="input-label">ZIP</span>
+  <input placeholder="ZIP" pattern="[0-9]*" type="text" class="card-zip" id="card-zip">
+
+</label>
+
+<ion-list>
+
+  <list-item class="item item-checkbox">
+     <label class="checkbox">
+       <input type="checkbox">
+     </label>
+     Save Card
+  </list-item>
+
+  <list-item class="item item-checkbox">
+     <label class="checkbox">
+       <input type="checkbox">
+     </label>
+     Make Default
+  </list-item>
+
+
+
+</ion-list>
+
+</div>
+
+
+<button class="button button-full button-positive">
+  Save
+</button>
+<button class="button button-full button-positive">
+  Cancel
+</button>
+
+
+
+
+
+
+
+  <ion-content>
+</ion-view>
